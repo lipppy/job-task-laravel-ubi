@@ -69,6 +69,7 @@ a:active {
     left: 20px;
     padding: 0;
     width: 300px;
+    z-index: 2;
 }
 .region-selection a {
     display: block;
@@ -96,6 +97,7 @@ a:active {
     width: 300px;
     height: auto;
     background: rgba(0, 0, 0, 0.75);
+    z-index: 1;
 }
 .region-info-title {
     display: block;
@@ -136,6 +138,7 @@ a:active {
     padding: 10px;
     width: 300px;
     background: rgba(0, 0, 0, 0.75);
+    z-index: 1;
 }
 .legend-axis {
     position: relative;
