@@ -1,0 +1,52 @@
+<?php
+$regions = $this->regions;
+?>
+
+<div class="map-container">
+    <div id="map" class="map"></div>
+
+    <div id="popup" class="ol-popup">
+        <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+        <div id="popup-content"></div>
+    </div>
+
+    <div class="region-selected">
+        <a href="javascript:;">Choose a Region</a>
+    </div>
+    <div class="region-selection">
+        <?php
+            foreach ($regions as $region) {
+                echo '<a href="javascript:;" class="region" data-region-gid="' . $region['gid'] . '" data-region-name="' . $region['name'] . '">' . $region['name'] . '</a>';
+            }
+        ?>
+    </div>
+
+    <div class="region-info-container">
+        <div class="region-info-title">Region Info</div>
+        <div class="region-info-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Min</th>
+                        <th>Max</th>
+                        <th>Avg</th>
+                        <th>Med</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="region-info-min">-</td>
+                        <td class="region-info-max">-</td>
+                        <td class="region-info-avg">-</td>
+                        <td class="region-info-med">-</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="legend-container">
+        <!--<div class="legend-gradient"></div>-->
+    </div>
+
+</div>
