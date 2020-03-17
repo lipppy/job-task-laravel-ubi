@@ -1,4 +1,4 @@
-# ZendSkeletonApplication
+# ZLG Ubimet Application
 
 ## Installation
 
