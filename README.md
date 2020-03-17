@@ -6,6 +6,8 @@
 - composer install
 - setup db in config (username password in autoload/local.php)
 
+- composer serve or apache web server setup needed
+
 ## Development Environment
 
 - XAMPP 7.2.20
