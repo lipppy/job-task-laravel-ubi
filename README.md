@@ -7,7 +7,8 @@
 - setup db in config (username password in autoload/local.php)
 
 ## Development Environment
-- XAMPP
+
+- XAMPP 7.2.20
 - PostgreSQL 11.7
 - Framework: Zend 3
 
