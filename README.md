@@ -1,4 +1,4 @@
-# ZLG Ubimet Application
+# LG Ubimet Application
 
 ## Installation
 
